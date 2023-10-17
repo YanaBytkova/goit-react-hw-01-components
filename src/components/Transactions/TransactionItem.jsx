@@ -1,19 +1,17 @@
-export const TransactionItem = ({ items }) => {
+import css from './Transactions.module.css';
+export const TransactionItem = ({ item }) => {
     return (
-        <div>
+        <tbody>
 
-            {items.map(item => {
-            return (
                 
-                    <tr>
-                        <td>{item.type}</td>
-                        <td>{item.amount}</td>
-                        <td>{item.currency}</td>
+                    <tr className={css.row}>
+                        <td className={css.rowText}>{item.type}</td>
+                        <td className={css.rowText}>{item.amount}</td>
+                        <td className={css.rowText}>{item.currency}</td>
                     </tr>
                 
             
-            );
-          })}
-        </div>
+        
+        </tbody>
     )
     };

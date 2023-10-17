@@ -6,9 +6,7 @@ import user from "./user.json";
 import data from "./data.json";
 import friends from "./friends.json";
 import transactions from "./transactions.json";
-// console.log("user",user);
-// console.log("friends",friends);
-console.log("transactions",transactions);
+
 export const App = () => {
   return (
     <div>
