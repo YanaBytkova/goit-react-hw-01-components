@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/YanaBytkova/goit-react-hw-01-components/static/css/main.6184ec34.css",
+    "main.js": "/YanaBytkova/goit-react-hw-01-components/static/js/main.5e34f484.js",
+    "index.html": "/YanaBytkova/goit-react-hw-01-components/index.html",
+    "main.6184ec34.css.map": "/YanaBytkova/goit-react-hw-01-components/static/css/main.6184ec34.css.map",
+    "main.5e34f484.js.map": "/YanaBytkova/goit-react-hw-01-components/static/js/main.5e34f484.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6184ec34.css",
+    "static/js/main.5e34f484.js"
+  ]
+}
